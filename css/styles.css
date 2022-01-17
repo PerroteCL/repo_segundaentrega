@@ -295,10 +295,6 @@ header.sticky {
 
 
     @media (max-width: 800px) {
-      /*contact form - responsive*/
-      .container-contact .contact-form {
-        width: 100%;
-        flex: 100%; }
       /*gallery - responsive*/
       .container {
         grid-template-columns: 1fr; }
