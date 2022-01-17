@@ -1,4 +1,4 @@
 #Segunda Entrega Proyecto Final
-##Se agregan animaciones y formulario de contacto
+##Se agregan animaciones en page adoptame
 ###CoderHouse 
-####14/01/2022 
+####17/01/2022 
