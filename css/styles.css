@@ -207,6 +207,9 @@ header.sticky {
     .container :nth-child(2) {
       grid-column: span 2; }
 
+      .container :nth-child(8) {
+        grid-column: span 2;
+        grid-row: span 2; }
     
     .container .gallery-container .gallery-item {
       width: 100%;
@@ -291,4 +294,14 @@ header.sticky {
 
 
 
- 
+    @media (max-width: 800px) {
+      /*contact form - responsive*/
+      .container-contact .contact-form {
+        width: 100%;
+        flex: 100%; }
+      /*gallery - responsive*/
+      .container {
+        grid-template-columns: 1fr; }
+        .container .gallery-container:nth-child(n+1) {
+          grid-column: span 1;
+          grid-row: span 1; } }
